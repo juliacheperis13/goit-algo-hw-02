@@ -1,5 +1,3 @@
-
-
 from service_queue import ServiceQueue
 
 
