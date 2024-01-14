@@ -8,7 +8,7 @@ class PalindromeCheck:
         formatted_string = self.format_string(string)
         self.fill(formatted_string)
 
-        while len(self.d) != 0 and len(self.d) != 1:
+        while len(self.d) > 1:
             right_letter = self.d.pop()
             left_letter = self.d.popleft()
 
